@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .my_card .card {
+            transition: 2s;
+            transform: scale(0.8);
+        }
+
+        .my_card .card:hover {
+            transform: scale(1);
+        }
+
+        .my_card .card:hover img {
+            transition: 0.4s;
+            transform: rotate(360deg)
+        }
+
+        .my_menu ul {
+            background-color: yellow;
+            margin-top: 1%;
+            height: 60px;
+            padding-top: 18px;
+            border-radius: 50rem;
+
+        }
+
+        .my_menu ul li {
+            display: inline;
+        }
+
+        .my_menu ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-left: 8.5%;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="conatiner-fluid" style="position: relative; z-index: -1;">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="./assets/gallery/a01.webp" alt="" style="width: 100%; height: 250px;margin-top: 0.3%;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container" style="margin-top: -100px;">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/gallery/01.jpg" class="card-img-top" style="width: 100%; height: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/gallery/02.jpg" class="card-img-top" alt="..." style="width: 100%; height: 150px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/gallery/03.jpg" class="card-img-top" alt="..." style="width: 100%; height: 150px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row" style="background-image: url('assets/gallery/background.png');">
+            <div class="col-md-6">
+                <img src="assets/gallery/man.png" alt="" ; style="margin-left: -8%;">
+            </div>
+            <div class="col-md-6">
+                <div style="color: white; margin-top: 15%;margin-right: 10%;">
+                    <div style="font-size: 32px; text-transform: uppercase;font-weight: bold;"> chancller message</div>
+                    <p style="text-align: justify;"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                        labore ea fugit ad enim necessitatibus, dolor soluta pariatur repellat magnam. Laboriosam ut,
+                        ipsum culpa inventore nobis provident! Natus, nesciunt provident?Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Reprehenderit ea delectus quibusdam possimus, nisi consequatur
+                        vitae pariatur animi, impedit id, magni repellendus fugit inventore totam fugiat. Tempora eius
+                        quas doloribus?</p>
+                    <div>
+                        <input type="submit" value="Read More &#8594;" class="btn btn-danger">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="my_card">
+                    <div class="card">
+                        <img src="assets/gallery/04.jpg" class="card-img-top" alt="..." style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="my_card">
+                    <div class="card">
+                        <img src="assets/gallery/05.jpg" class="card-img-top" alt="..." style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="my_card">
+                    <div class="card">
+                        <img src="assets/gallery/06.jpg" class="card-img-top" alt="..." style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
